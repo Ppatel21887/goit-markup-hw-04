@@ -131,16 +131,7 @@ button:focus {
   color: var(--logo-color);
 }
 
-.current {
-  color: var(--logo-color);
-}
-
 /*styling for icons*/
-
-.icon-hover {
-  margin-right: 10px;
-  fill: #2196f3;
-}
 
 .link-icon-mail {
   margin-right: 10px;
@@ -162,7 +153,7 @@ button:focus {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/images/image-background/imgbg.jpg);
+    url(../images/image-background/imgbg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -268,11 +259,6 @@ button:focus {
   border-radius: 4px;
 }
 
-.feature-icon:hover,
-.feature-icon:focus {
-  stroke: #2196f3;
-}
-
 /*SECTION-3*/
 
 .job-section {
@@ -347,7 +333,6 @@ button:focus {
   width: 44px;
   height: 44px;
 
-  background-color: #ffffff;
   color: #afb1b8;
   display: flex;
   align-items: center;
@@ -355,14 +340,16 @@ button:focus {
   border-radius: 50px;
 }
 
+.social-link:hover,
+.social-link:focus {
+  color: white;
+  background-color: var(--logo-color);
+}
+
 .team-social-links {
   fill: currentColor;
 }
 
-.insta-icon {
-  background-color: #2196f3;
-  color: white;
-}
 /*SECTION-5 (styling for icons)*/
 
 .regular-customer {
@@ -396,13 +383,14 @@ button:focus {
   justify-content: center;
 }
 
-.client-logo:hover,
-.client-logo:focus {
-  fill: #2196f3;
+.customer-link {
+  color: #2196f3;
+  background-color: #afb1b8;
 }
 
-.logo-4 {
-  fill: #2196f3;
+.client-logo:hover,
+.client-logo:focus {
+  fill: currentColor;
 }
 
 /*FOOTER*/
@@ -488,9 +476,10 @@ button:focus {
   justify-content: center;
 }
 
-.twitter-icon {
-  background-color: #2196f3;
+.footer-social-link:hover,
+.footer-social-link:focus {
   color: white;
+  background-color: var(--logo-color);
 }
 
 /*PORTFOLIO PAGE STYLING*/
